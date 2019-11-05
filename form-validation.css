@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Acme&display=swap");
+
+body {
+    font-family: 'Acme', sans-serif;
+}
+
+input[type="text"], input[type="email"], input[type="phone number"] {
+    font-size: 1.7rem;
+    width: 100%;
+    line-height: 67px;
+    padding-left: 3rem;
+    color: black;
+}
+
+select {
+    width: 100%;
+    height: 65px;
+    color: #010100;
+    padding-left: 3rem;
+}
+
+.h1, h1 {
+    font-size: 38px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.text-white {
+      color: #ffffff;
+  }
+
+.font-w400 {
+    font-weight: 400;
+}
+
+.padding-top-xl {
+    padding-top: 6rem;
+
+}
+
+.padding-bottom-xl {
+    padding-bottom: 6rem;
+}
+
+.margin-top-m {
+    margin-top: 4rem;
+}
+.margin-bottom-m {
+    margin-bottom: 4rem;
+}
+
+.section5 h2 {
+    line-height: 40px;
+}
+
+.section5 p {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.has-error input[type="text"], .has-error input [type="email"], .has-error select, .has-error input [type="phone number"]{
+    border: 1px solid darkred;
+}
